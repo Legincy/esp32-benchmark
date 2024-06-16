@@ -1,0 +1,37 @@
+# Ignore PlatformIO project artifacts
+/.pio
+
+# Ignore MicroPython project artifacts
+/micropython/build
+/micropython/dist
+
+# Ignore Rust project artifacts
+/rust/target
+/rust/*.rs.bk
+
+# Ignore Python Virtual Environment
+/venv
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore compiled binaries
+/*.exe
+/*.out
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore package files
+*.egg-info/
+*.egg
+
+*.code-workspace

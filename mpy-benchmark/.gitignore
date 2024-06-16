@@ -1,0 +1,26 @@
+# MicroPython specific
+/.vscode
+/__pycache__
+/*.pyc
+
+# Compiled bytecode
+*.pyc
+
+# Editor-specific files
+*~
+.vscode/
+
+# Dependency directories
+lib/
+
+# Compiled output
+build/
+dist/
+
+# Package files
+*.egg-info/
+*.egg
+
+# System-specific files
+.DS_Store
+Thumbs.db
